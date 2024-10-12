@@ -8,7 +8,6 @@ app.get('/', (req, res) => {
 })
 
 
-
 app.use('/products', productsRoutes);
 
 
