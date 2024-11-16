@@ -1,8 +1,8 @@
 import bcrypt from 'bcryptjs';
 import { Router } from "express";
-import { validateData } from "../../middlewares/validationMiddleware";
-import { createUserSchema, loginSchema, usersTable } from "../../db/usersSchema";
-import { db } from '../../db/index';
+import { validateData } from "../../middlewares/validationMiddleware.js";
+import { createUserSchema, loginSchema, usersTable } from "../../db/usersSchema.js";
+import { db } from '../../db/index.js';
 // import { eq } from 'lodash';
 import { eq } from 'drizzle-orm';
 import jwt from 'jsonwebtoken';
